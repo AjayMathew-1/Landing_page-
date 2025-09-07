@@ -6,6 +6,7 @@ import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 import ContactButton from "../components/ContactButton";
 import FeaturesSection from "../components/features/FeaturesSection";
+import ReviewsSection from "../components/ReviewsSection";
 
 const Home = () => {
   return (
@@ -15,7 +16,9 @@ const Home = () => {
       <ContactButton />
       <FeaturesSection />
       <Map />
+
       <CTASection />
+       <ReviewsSection />
       <Footer />
     </>
   );
